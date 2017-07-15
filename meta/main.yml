@@ -1,0 +1,9 @@
+---
+galaxy_info:
+  author: Brandon Schlueter <github@schlueter.blue>
+  description: A role to bootstrap systems which require prep before Ansible can be run
+  license: GPL v3
+  platforms:
+    - name: Ubuntu
+      versions:
+        - xenial

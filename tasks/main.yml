@@ -1,0 +1,6 @@
+---
+- name: install python
+  raw:
+    '[[ "$(uname -a)" =~ xenial ]] && sudo apt install -y python-minimal'
+  args:
+    executable: /bin/bash
